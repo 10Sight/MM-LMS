@@ -46,7 +46,7 @@ const app = express();
 const server = createServer(app);
 const io = new Server(server, {
     cors: {
-        origin: ["https://swargaya-learning-management-system.onrender.com", "https://learning-management-system-avwu.onrender.com", "http://localhost:5173", "http://localhost:5174", "http://localhost:5175", "http://localhost:5176", "http://localhost:5177"],
+        origin: ["https://mm-lms.onrender.com", "https://learning-management-system-avwu.onrender.com", "http://localhost:5173", "http://localhost:5174", "http://localhost:5175", "http://localhost:5176", "http://localhost:5177"],
         credentials: true,
         methods: ["GET", "POST"]
     }
