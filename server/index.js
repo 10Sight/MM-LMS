@@ -62,7 +62,7 @@ app.use(cookieParser()); // Add cookie parser middleware
 
 // CORS with caching for preflight
 const corsOptions = {
-    origin: ["https://mm-lms-server.onrender.com",  "http://localhost:5173", "http://localhost:5174", "http://localhost:5175", "http://localhost:5176", "http://localhost:5177"],
+    origin: ["https://mm-lms.onrender.com",  "http://localhost:5173", "http://localhost:5174", "http://localhost:5175", "http://localhost:5176", "http://localhost:5177"],
     credentials: true,
     optionsSuccessStatus: 200, // For legacy browser support
     maxAge: 86400, // Cache preflight for 24 hours
